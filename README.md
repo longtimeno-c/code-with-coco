@@ -16,11 +16,12 @@ each folder has its own setup guide with technical details in its respective rea
 | ep | project | description |
 |----|---------|--------------|
 | 01 | [`gcal-declutterer`](./gcal-declutterer) | auto-fades past google calendar events to gray |
+| 02 | [`pink-terminal`](./pink-terminal) |  making your terminal prettier than you ever thought possible |
 
 *more coming soon!!!*
 
 ## <img src="./assets/wink.png" height="36" style="vertical-align: middle;" /> &nbsp; kudos
 
-feel free to copy, fork, and share. if you make a video with it, tag me! and if you remix the code in your own project, a quick credit in the file is appreciated.
+feel free to copy, fork, and share (star this repo while you're at it, hehe). if you make a video with it, tag me! and if you remix the code in your own project, a quick credit in the file is appreciated.
 - <img src="./assets/tiktok.png" height="20" style="vertical-align: middle;" /> &nbsp; [`@cocopuffffffffs`](https://tiktok.com/@cocopuffffffffs)
 - <img src="./assets/instagram.png" height="20" style="vertical-align: middle;" /> &nbsp; [`@cocohdzz`](https://instagram.com/cocohdzz)
