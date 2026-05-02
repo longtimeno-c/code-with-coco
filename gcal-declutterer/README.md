@@ -2,11 +2,11 @@
 <img src="../assets/readme_background.png" width="600" alt="code with coco" />
 </div>
 
-# <img src="../assets/gcal.png" height="24" style="vertical-align: middle;" /> &nbsp; gcal declutterer
+# <img src="../assets/gcal.png" height="48" style="vertical-align: middle;" /> &nbsp; gcal declutterer
 
 my google calendar was driving me crazy. nine calendars, all bright colors, all chaos. past events sat there cluttering up my week, so i wrote a tiny google apps script that runs every hour to finds events that already ended and make them gray. by wednesday your calendar is more gray than colorful, and somehow that makes the weekend feels so much closer!
 
-## <img src="../assets/wrench.png" height="24" style="vertical-align: middle;" /> &nbsp; tutorial
+## <img src="../assets/wrench.png" height="36" style="vertical-align: middle;" /> &nbsp; tutorial
 
 ### <img src="../assets/one.png" height="24" style="vertical-align: middle;" /> &nbsp; create gray calendar
 
@@ -43,11 +43,11 @@ then, set up the script in google apps script:
 
 ***that's it! you're done!!!!!!!!!!***
 
-## <img src="../assets/star.png" height="24" style="vertical-align: middle;" /> &nbsp; episode
+## <img src="../assets/star.png" height="36" style="vertical-align: middle;" /> &nbsp; episode
 - tiktok: *coming soon*
 - instagram: *coming soon*
 
-## <img src="../assets/wink.png" height="24" style="vertical-align: middle;" /> &nbsp; kudos
+## <img src="../assets/wink.png" height="36" style="vertical-align: middle;" /> &nbsp; kudos
 
 feel free to copy, fork, and share. if you make a video with it, tag me! and if you remix the code in your own project, a quick credit in the file is appreciated.
 - <img src="../assets/tiktok.png" height="20" style="vertical-align: middle;" /> &nbsp; [`@cocopuffffffffs`](https://tiktok.com/@cocopuffffffffs)

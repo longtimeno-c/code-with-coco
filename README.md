@@ -5,11 +5,11 @@
 
 </div>
 
-## <img src="./assets/world.png" height="24" style="vertical-align: middle;" /> &nbsp; hola mundo
+## <img src="./assets/world.png" height="36" style="vertical-align: middle;" /> &nbsp; hola mundo
 
 i'm coco, a computer science major at stanford university. this is where i share the small fun projects i build for myself, and break them down so anyone can follow along. 
 
-## <img src="./assets/folder.png" height="24" style="vertical-align: middle;" /> &nbsp; projects
+## <img src="./assets/folder.png" height="36" style="vertical-align: middle;" /> &nbsp; projects
 
 each folder has its own setup guide with technical details in its respective readme. try forking/copying the code, and playing around with it. feel free to dm me with feedback and/or other episode topics you want to see!
 
@@ -19,7 +19,7 @@ each folder has its own setup guide with technical details in its respective rea
 
 *more coming soon!!!*
 
-## <img src="./assets/wink.png" height="24" style="vertical-align: middle;" /> &nbsp; kudos
+## <img src="./assets/wink.png" height="36" style="vertical-align: middle;" /> &nbsp; kudos
 
 feel free to copy, fork, and share. if you make a video with it, tag me! and if you remix the code in your own project, a quick credit in the file is appreciated.
 - <img src="./assets/tiktok.png" height="20" style="vertical-align: middle;" /> &nbsp; [`@cocopuffffffffs`](https://tiktok.com/@cocopuffffffffs)
