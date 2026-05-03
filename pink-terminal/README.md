@@ -1,5 +1,5 @@
 <div align="center">
-<img src="../assets/readme_background.png" width="600" alt="code with coco" />
+<img src="../assets/readme_background.png" alt="code with coco" />
 </div>
 
 # <img src="../assets/terminal.svg" height="48" style="vertical-align: middle;" /> &nbsp; pink terminal
