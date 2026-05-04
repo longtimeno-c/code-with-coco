@@ -102,6 +102,6 @@ const findUnfollowers = async (username) => {
   return dontFollowBack;
 };
 
-// ─── change this to your username ────────────────────────────
+// TODO: change this to your username 
 yourUsername = "placeholder"     // keep the quotes around it
 findUnfollowers(yourUsername);
