@@ -13,10 +13,10 @@ i'm coco, a computer science major at stanford university. this is where i share
 
 each folder has its own setup guide with technical details in its respective readme. try forking/copying the code, and playing around with it. feel free to dm me with feedback and/or other episode topics you want to see!
 
-| ep | project | description |
+|   | project | description |
 |----|---------|--------------|
-| 01 | [`gcal-declutterer`](./gcal-declutterer) | auto-fades past google calendar events to gray |
-| 02 | [`pink-terminal`](./pink-terminal) |  making your terminal prettier than you ever thought possible |
+| <img src="./assets/gcal.png" height="36" style="vertical-align: middle;" /> | [`gcal-declutterer`](./gcal-declutterer) | auto-fades past google calendar events to gray |
+| <img src="./assets/terminal.svg" height="36" style="vertical-align: middle;" /> | [`pink-terminal`](./pink-terminal) |  making your terminal prettier than you ever thought possible |
 
 *more coming soon!!!*
 
