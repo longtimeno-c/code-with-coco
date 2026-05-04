@@ -15,8 +15,9 @@ each folder has its own setup guide with technical details in its respective rea
 
 |   | project | description |
 |----|---------|--------------|
-| <img src="./assets/gcal.png" height="36" style="vertical-align: middle;" /> | [`gcal-declutterer`](./gcal-declutterer) | auto-fades past google calendar events to gray |
+| <img src="./assets/gcal.png" height="36" style="vertical-align: middle;" /> | [`gcal-declutterer`](./gcal-declutterer) | auto-fades past google calendar events to gray so the weekend feels closer |
 | <img src="./assets/terminal.svg" height="36" style="vertical-align: middle;" /> | [`pink-terminal`](./pink-terminal) |  making your terminal prettier than you ever thought possible |
+| <img src="./assets/instagram.png" height="36" style="vertical-align: middle;" /> | [`ig-unfollows`](./ig-unfollows) |  finding out who unfollowed you and didn't remove you from their following |
 
 *more coming soon!!!*
 
