@@ -26,7 +26,9 @@ safari                ⌘ + option + c     (enable dev menu in settings → adva
 firefox               ⌘ + option + k     (windows: ctrl + shift + k)
 ```
 
-a panel pops up with a blinking cursor. that's where the script goes.
+once it opens, **click the `console` tab** at the top of the panel — that's where the blinking cursor lives, and where the script goes. (if you opened with the shortcuts above, you might already be there.)
+
+> ⚠️ **chrome / arc / edge users:** the first time you try to paste into the console, you'll probably see a big scary warning that says **"don't paste!"** or **"stop!"** and refuses to let you paste. don't panic — this is just chrome being cautious because pasting random code into the console *can* be dangerous. my code is safe, you can read every line of it in [`ig-unfollows.js`](./ig-unfollows.js), and there's nothing to worry about. to unlock pasting, click into the console and **type the words `allow pasting`** (literally type it out, don't paste it), hit enter, and then you'll be able to paste normally.
 
 ### <img src="../assets/three.png" height="24" style="vertical-align: middle;" /> &nbsp; paste, edit, run, wait
 
