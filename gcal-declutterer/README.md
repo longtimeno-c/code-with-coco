@@ -44,8 +44,7 @@ then, set up the script in google apps script:
 ***that's it! you're done!!!!!!!!!!***
 
 ## <img src="../assets/star.png" height="36" style="vertical-align: middle;" /> &nbsp; episode
-- tiktok: *coming soon*
-- instagram: *coming soon*
+- watch on [tiktok](https://www.tiktok.com/@cocopuffffffffs/video/7634308944042806541) or [instagram](https://www.instagram.com/reel/DXvYmC8NYVT/)
 
 ## <img src="../assets/wink.png" height="36" style="vertical-align: middle;" /> &nbsp; kudos
 

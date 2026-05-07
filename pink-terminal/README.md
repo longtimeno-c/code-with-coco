@@ -102,8 +102,7 @@ source ~/.zshrc
 *that's it! you're done!!!!!!!!!!*
 
 ## <img src="../assets/star.png" height="36" style="vertical-align: middle;" /> &nbsp; episode
-- tiktok: *coming soon*
-- instagram: *coming soon*
+- watch on [tiktok](https://www.tiktok.com/@cocopuffffffffs/video/7636178082600078606) or [instagram](https://www.instagram.com/reel/DX70w5dP3lv/)
 
 ## <img src="../assets/wink.png" height="36" style="vertical-align: middle;" /> &nbsp; kudos
 
