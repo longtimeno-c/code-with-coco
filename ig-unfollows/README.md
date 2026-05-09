@@ -47,8 +47,7 @@ heads up: you'll probably see red warning text scroll by while it runs. that's i
 inspired by [`@abir-taheer`](https://github.com/abir-taheer)'s gist on github. you can find his original code [here](https://gist.github.com/abir-taheer/0d3f1313def5eec6b78399c0fb69e4b1).
 
 ## <img src="../assets/star.png" height="36" style="vertical-align: middle;" /> &nbsp; episode
-- tiktok: *coming soon*
-- instagram: *coming soon*
+- watch on [tiktok](https://www.tiktok.com/@cocopuffffffffs/video/7637274482595466509) or [instagram](https://www.instagram.com/reel/DYDcAXXvZiy/)
 
 ## <img src="../assets/wink.png" height="36" style="vertical-align: middle;" /> &nbsp; kudos
 
