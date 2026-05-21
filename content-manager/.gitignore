@@ -9,6 +9,7 @@ posts_*.csv
 *.csv
 output/
 data/
+sync.log
 
 # --- python ---
 __pycache__/

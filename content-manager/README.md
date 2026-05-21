@@ -64,6 +64,49 @@ the first script verifies your token works. the second one pulls all your data a
 
 *that's it! you're done!!!!!!!!!!*
 
+## <img src="../assets/sync.png" height="36" style="vertical-align: middle;" /> &nbsp; notion sync (optional)
+
+want your analytics automatically pushed to notion every day? here's how:
+
+### <img src="../assets/one.png" height="24" style="vertical-align: middle;" /> &nbsp; create notion integration
+
+1. go to [notion.so/my-integrations](https://www.notion.so/my-integrations)
+2. click "new integration"
+3. name it (e.g., "instagram analytics")
+4. copy the integration token (starts with `secret_` or `ntn_`)
+5. add to your `.env`:
+   ```bash
+   NOTION_TOKEN=your_token_here
+   ```
+
+### <img src="../assets/two.png" height="24" style="vertical-align: middle;" /> &nbsp; set up database
+
+```bash
+python3 setup_notion_database.py
+```
+
+this creates a fresh notion database with all the right columns. copy the database id it prints and add it to your `.env`:
+
+```bash
+NOTION_DATABASE_ID=your_database_id_here
+```
+
+### <img src="../assets/three.png" height="24" style="vertical-align: middle;" /> &nbsp; test the sync
+
+```bash
+python3 sync_to_notion.py
+```
+
+this pulls your instagram data and pushes it directly to notion. check your notion database to see all your posts with full analytics.
+
+### <img src="../assets/four.png" height="24" style="vertical-align: middle;" /> &nbsp; automate daily sync (optional)
+
+the cron job is already set up to run at 3:30 AM PST every day! it syncs your posts after they've had 24 hours to collect engagement, so you wake up to fresh analytics each morning.
+
+check the logs: `tail -f sync.log`
+
+to disable: `crontab -e` and comment out or delete the instagram analytics line.
+
 ## <img src="../assets/chart.png" height="36" style="vertical-align: middle;" /> &nbsp; what's in the csv
 
 | column | what it is |
@@ -81,6 +124,28 @@ the first script verifies your token works. the second one pulls all your data a
 | `total_interactions` | sum of all engagement |
 | `save_rate` | saved / reach |
 | `share_rate` | shares / reach |
+
+## <img src="../assets/test.png" height="36" style="vertical-align: middle;" /> &nbsp; content strategy tracking
+
+if you're using notion sync, your database includes optional tracking fields to help you figure out what works. manually fill these in for each post to identify patterns:
+
+**tracking fields:**
+- **hook type** (text) - how you opened ("question", "POV", "bold statement", "tutorial intro", etc.)
+- **style** (select) - video style (talking head, b-roll, text overlay, tutorial, POV, voiceover, mixed)
+- **lighting** (select) - lighting setup (natural, ring light, studio, mixed)
+- **time category** (select) - when you posted (morning, afternoon, evening, night)
+- **content topic** (multi-select) - tag your topics (tech, stanford, coding, life, tutorial, behind the scenes)
+- **notes** (text) - anything you noticed while filming or posting
+
+**how to use this:**
+
+after a few weeks of tracking, filter and sort your notion database to find patterns:
+- which hooks get the highest save rate?
+- does lighting affect engagement?
+- what time category performs best for your audience?
+- which topics drive the most shares?
+
+sort by `save_rate` or `share_rate` descending, then look for commonalities in your top performers. this is how you build a data-driven content strategy instead of guessing.
 
 ## <img src="../assets/clock.png" height="36" style="vertical-align: middle;" /> &nbsp; token refresh
 
