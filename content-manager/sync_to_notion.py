@@ -139,6 +139,21 @@ def push_to_notion(database_id, notion_token, posts_data):
         # format posted_at as notion date
         posted_dt = datetime.fromisoformat(post["posted_at"].replace("+0000", "+00:00"))
 
+        # calculate time-based fields
+        weekday_name = posted_dt.strftime("%A")  # Monday, Tuesday, etc.
+        time_posted = posted_dt.strftime("%-I:%M %p")  # 3:45 PM
+        hour = posted_dt.hour
+
+        # determine time category based on hour
+        if 6 <= hour < 12:
+            time_category = "Morning (6am-12pm)"
+        elif 12 <= hour < 17:
+            time_category = "Afternoon (12pm-5pm)"
+        elif 17 <= hour < 22:
+            time_category = "Evening (5pm-10pm)"
+        else:
+            time_category = "Night (10pm-6am)"
+
         # build notion page properties
         properties = {
             "Name": {
@@ -203,6 +218,25 @@ def push_to_notion(database_id, notion_token, posts_data):
             },
             "Share Rate": {
                 "number": post["share_rate"] if post["share_rate"] else 0
+            },
+            "Weekday": {
+                "select": {
+                    "name": weekday_name
+                }
+            },
+            "Time Posted": {
+                "rich_text": [
+                    {
+                        "text": {
+                            "content": time_posted
+                        }
+                    }
+                ]
+            },
+            "Time Category": {
+                "select": {
+                    "name": time_category
+                }
             }
         }
 
