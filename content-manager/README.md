@@ -2,7 +2,7 @@
 <img src="../assets/readme_background.png" alt="code with coco" />
 </div>
 
-# <img src="../assets/instagram.png" height="48" style="vertical-align: middle;" /> &nbsp; content manager
+# <img src="../assets/improvement.svg" height="48" style="vertical-align: middle;" /> &nbsp; content manager
 
 ever wish you could just download your instagram analytics into a spreadsheet? every "analytics tool" wants $30/month to show you numbers meta already has. so i built a tiny python script that pulls your own data directly from the instagram graph api and spits out a csv. no third-party tools, no monthly fees, just your data.
 
